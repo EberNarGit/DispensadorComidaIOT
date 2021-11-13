@@ -17,7 +17,11 @@
       function alimentar() {
         $.post(url, { params: "accionar", access_token: accessToken }, function(datos) {
           if(datos.return_value == 1) {
+<<<<<<< HEAD
             alert("Pez alimentado");
+=======
+            alert("Peces alimentados!!!");
+>>>>>>> 8dcd1bebbbdd3987d6703d88743c27c93cbd2465
           }
         }, "json");
       }
