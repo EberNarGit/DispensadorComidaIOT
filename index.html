@@ -17,7 +17,7 @@
       function alimentar() {
         $.post(url, { params: "accionar", access_token: accessToken }, function(datos) {
           if(datos.return_value == 1) {
-            alert(datos.return_value);
+            alert("Pez alimentado");
           }
         }, "json");
       }
